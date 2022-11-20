@@ -8,7 +8,7 @@ const  Result = () => {
             <Text>  Result</Text>
         </View>
         <View style={styles.bannerContainer}>
-        <Image source={{uri:'https://iconscout.com/contributors/vectormine'}}
+        <Image source={{uri:'https://www.freepik.com/free-vector/did-you-know-3d-text-yellow-background_26782900.htm#query=quiz&position=6&from_view=keyword'}}
                 style={styles.banner}
                 resizeMode="contain"
             />

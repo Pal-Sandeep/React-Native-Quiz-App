@@ -1,3 +1,4 @@
+import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import home from '../screens/home';
 import Quiz from '../screens/quiz';
@@ -14,3 +15,5 @@ function MyStack() {
     </Stack.Navigator>
   );
 }
+
+export default MyStack;

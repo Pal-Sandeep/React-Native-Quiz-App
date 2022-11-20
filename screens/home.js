@@ -13,7 +13,7 @@ const home = () => {
             />
             
         </View>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate("Quiz")}>
             <Text>
                 Start
             </Text>
