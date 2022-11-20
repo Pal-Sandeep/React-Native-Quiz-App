@@ -1,7 +1,7 @@
 import {Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 
-const  Result = () => {
+const  Result = ({navigation}) => {
   return (
     <View>
         <View>
@@ -12,9 +12,13 @@ const  Result = () => {
                 style={styles.banner}
                 resizeMode="contain"
             />
+             <Image source={{uri:'C:\Users\JaanlevaDushman\Downloads\vecteezy_fill-in-test\Project_74-21.jpg'}}
+                style={styles.banner}
+                resizeMode="contain"
+            />
         </View>
-        <View>
-            <TouchableOpacity>
+        <View>  
+            <TouchableOpacity onPress={()=>navigation.navigate('Home')}>
                 <Text>Home</Text>
             </TouchableOpacity>
         </View>
